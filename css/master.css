@@ -1,0 +1,109 @@
+.mobile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    background-image: linear-gradient(to top, white 50%,  #af222a 50%,  #af222a 100%);
+    position: relative;
+  }
+  .top-icon{
+    direction: rtl;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+  }
+  .image img{
+    width: 180px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 55px;
+  }
+  .mobile .user{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .mobile .pass{
+    margin-left: 20px;  
+  }
+  .mobile form{
+    margin-left: 40px;
+  }
+  .mobile form input{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 4px;
+    width: 280px;
+    height: 50px;
+  }
+  .mobile form input::placeholder{
+    float: right;
+    padding: 5px;
+  }
+  .mobile .btn{
+    background: #af222a;
+    padding: 10px 87px;
+    margin-top: 17px;
+    margin-left: 60px;
+  }
+  .mobile .btn a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  .mobile .feat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .mobile .share{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .mobile .share label{
+    margin-right: 10px;
+    font-size: 40px;
+    color: #af222a;
+  }
+  .mobile .share p{
+    margin-bottom: 20px;
+  }
+  .social-media{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .social-media img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  .social-media p{
+    margin-top: 15px;
+  }
+  
+  
+  /* Small  */
+  @media (min-width: 768px){
+    .mobile{
+      width: 30%;
+    } 
+  }
+  
+  /* Medium */
+  @media (min-width: 992px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
+  /* Large  */
+  @media (min-width: 1200px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
